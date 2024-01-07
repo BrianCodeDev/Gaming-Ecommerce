@@ -1,0 +1,73 @@
+.nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar .container-md .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.d-flex a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.d-flex input {
+  width: 380px;
+}
+
+.header-display {
+  background-image: url("images/ddrfu5v-8497eeac-ad03-4abf-957a-63159599231e 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.main-content {
+  background-color: black;
+  height: 250vh;
+}
+
+.main-content h3 {
+  padding-top: 30px;
+  color: white;
+  font-size: 23px;
+}
+
+.main-content .row {
+  margin-top: 40px;
+}
+
+.main-content .row .col .card {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.main-content .row .col .card .card-body p {
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.main-content .carousel {
+  padding-top: 100px;
+}
+
+.main-content .carousel p {
+  color: black;
+  padding: 0;
+}
+
+.d-flex .fa-circle-user {
+  font-size: 30px;
+}
+
+.main-content p {
+  padding-top: 50px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
