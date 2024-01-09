@@ -1,60 +1,248 @@
-.nav .nav-item .nav-link {
-    color: white;
-}
-.navbar .container-md .navbar-brand {
-    font-size: 30px;
-    font-weight: bold;
-}
-.d-flex a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    margin-left: 10px;
-}
-.d-flex input {
-    width: 380px;
-}
-.header-display {
-    background-image: url("images/ddrfu5v-8497eeac-ad03-4abf-957a-63159599231e\ 1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-}
-.main-content {
-    background-color: black;
-    height: 250vh;
-}
-.main-content h3 {
-    padding-top: 30px;
-    color: white;
-    font-size: 23px;
-}
-.main-content .row {
-    margin-top: 40px;
-}
-.main-content  .row .col .card {
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-color: white;
-    border-width: 2px;
-    border-style: solid;
-}
-.main-content  .row .col .card .card-body p {
-  text-align: left;
-  color: rgb(255, 255, 255);
-}
-.main-content .carousel {
-    padding-top: 100px;
-}
-.main-content .carousel p {
-    color: black;
+.navbar {
     padding: 0;
 }
-.d-flex .fa-circle-user {
-    font-size: 30px;
+.collapse .navbar-nav {
+    padding-left: 20px;
 }
-.main-content p {
-    padding-top: 50px;
+.d-flex .nav-item {
+    list-style-type: none;
+}
+.d-flex .nav-item .nav-link {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-decoration: underline;
+}
+
+.d-flex button {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: white;
+    border-radius: 100px;
 }
+.d-flex .login-register {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: #1461cd;
+    font-weight: bold;
+}
+.red-tag {
+    height: 40px;
+    background-color: rgb(101, 1, 1);
+}
+.red-tag h2 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.header-display {
+    background-image: url("images/Component\ 1\ \(11\).png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.header-display .header-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    
+}
+.header-content-one {
+    position: absolute;
+    left: 0;
+    color: white;
+    padding-left: 20vw;
+
+}
+.header-content-two {
+    position: absolute;
+    right: 0;
+    
+}
+.header-container img {
+    margin-left: 8rem;
+}
+.header-container h2 {
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: left;
+}
+.header-container p {
+    color: white;
+    text-align: left;
+}
+.header-container .col button {
+    text-align: left;
+}
+.feature-titles h2 {
+    font-size: 25px;
+    background-color: rgb(32, 32, 32);
+  color: white;
+    fill: #2C2A2A;
+stroke-width: 3px;
+stroke: #6C94CB;
+width: 283px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 100px;
+}
+.header-title{
+    text-align: center;
+}
+.header-title h2 {
+    font-size: 25px;
+    padding-top: 50px;
+}
+.header-title p {
+    text-align: left;
+    font-size: 24px;
+
+}
+.header-display button {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 100px;
+}
+.main-one {
+  padding-top: 50px;
+}
+.main-one button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 100px;
+    background-color: white;
+    color: #0b479a;
+    border-color: #0b479a;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 20px;
+}
+.main-one p {
+    font-size: 20px;
+}
+.main-two {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.main-two h2 {
+    text-align: center;
+}
+.main-two .col h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.main-two .col p {
+    text-align: left;
+}
+.main-two .col a {
+  padding-left: 40px;
+}
+.extra-info .card {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    height: 300px;
+}
+.extra-info .card .card-body a {
+position: absolute;
+right: 0;
+bottom: 10px;
+margin-right: 20px;
+border-color: #0b479a;
+border-width: 2px;
+border-style: solid;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+ padding-right: 20px; 
+}
+.top-box {
+    border-color: #2C2A2A;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.subscribe {
+    text-align: center;
+}
+.subscribe h2 {
+    text-align: center;
+}
+.subscribe button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 100px;
+    background-color: white;
+    color: #9a0b0b;
+    border-color: #9a0b0b;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+footer {
+    margin-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .header-container img {
+        display: none;
+    }
+   
+    .main-one .row {
+        display: block !important;
+    }
+    .main-one .col img {
+        width: 100% !important;
+        margin-top: 50px;
+    }
+    .header-display .row {
+        display: block;
+    }
+    .header-display {
+        height: 400px;
+    }
+    .header-display .row .col p {
+     font-size: 14px;
+    }
+    .d-flex {
+        display: block !important;
+    }
+    .main-two .row {
+        display: block;
+    }
+    .main-two .row .col {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .extra-info .card{
+        height: 480px;
+    }
+    .extra-info .card .card-body a {
+        margin-top: 10px;
+    }
+  }
